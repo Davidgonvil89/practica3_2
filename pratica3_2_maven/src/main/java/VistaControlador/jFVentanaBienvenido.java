@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package UI;
+package VistaControlador;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -88,9 +88,7 @@ public class jFVentanaBienvenido extends javax.swing.JFrame {
         jMCambiarColores = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(900, 700));
         setMinimumSize(new java.awt.Dimension(900, 700));
-        setPreferredSize(new java.awt.Dimension(900, 700));
         setSize(new java.awt.Dimension(900, 700));
 
         jPBienvenido.setBackground(new java.awt.Color(4, 28, 45));
@@ -136,7 +134,7 @@ public class jFVentanaBienvenido extends javax.swing.JFrame {
             }
         });
 
-        IconoBienvenido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/usuario.png"))); // NOI18N
+        IconoBienvenido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/VistaControlador/usuario.png"))); // NOI18N
 
         jTMostrar.setColumns(20);
         jTMostrar.setRows(5);

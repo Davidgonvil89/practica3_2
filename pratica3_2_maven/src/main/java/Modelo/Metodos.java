@@ -1,6 +1,6 @@
 package Modelo;
 
-import UI.*;
+import VistaControlador.jFAgregarUsuario;
 import java.awt.*;
 import javax.swing.*;
 

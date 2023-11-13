@@ -21,6 +21,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <exec.mainClass>com.mycompany.pratica3_2_maven.Pratica3_2_maven</exec.mainClass>
+        <exec.mainClass>com.mycompany.pratica3_2_maven.VistaControlador.VentanaLogin</exec.mainClass>
     </properties>
 </project>

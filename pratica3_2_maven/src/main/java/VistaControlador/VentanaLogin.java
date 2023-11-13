@@ -1,4 +1,4 @@
-package UI;
+package VistaControlador;
 
 import Modelo.*;
 import java.net.URL;
@@ -59,10 +59,8 @@ public class VentanaLogin extends javax.swing.JFrame {
         setTitle("Login");
         setLocationByPlatform(true);
         setMaximizedBounds(new java.awt.Rectangle(670, 420, 420, 420));
-        setMaximumSize(new java.awt.Dimension(670, 420));
         setMinimumSize(new java.awt.Dimension(670, 420));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(670, 420));
         setResizable(false);
         setSize(new java.awt.Dimension(670, 420));
 
@@ -228,7 +226,7 @@ public class VentanaLogin extends javax.swing.JFrame {
                 .addContainerGap(49, Short.MAX_VALUE))
         );
 
-        jL_imagen_login.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/fondo_passwd.png"))); // NOI18N
+        jL_imagen_login.setIcon(new javax.swing.ImageIcon(getClass().getResource("/VistaControlador/fondo_passwd.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -239,7 +237,7 @@ public class VentanaLogin extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPLogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addComponent(jPTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+            .addComponent(jPTitulo, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
